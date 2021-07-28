@@ -5,7 +5,12 @@
  */
 
 function asNegative(n) {
-  // ...
+  if (n > 0) {
+    return -n
+  } else {
+    return n
+  }
 }
 
-
+console.log(asNegative(5));
+console.log(asNegative(5));
